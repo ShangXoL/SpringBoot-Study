@@ -17,12 +17,12 @@ import java.util.List;
 @Controller
 public class IndexController {
 
-    @GetMapping("/aboutMe")
+    @GetMapping("/aboutme")
     public String index(Model model) throws ParseException {
         User user = new User();
-        user.setUsername("yukong");
-        user.setPassword("abc123");
-        user.setAge(18);
+        user.setUsername("shangxoliang");
+        user.setPassword("admin");
+        user.setAge(27);
         user.setSex(1);
         model.addAttribute("user", user);
         return "index";

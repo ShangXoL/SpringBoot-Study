@@ -2,12 +2,12 @@ server:
   port: 8989
 spring:
   freemarker:
-    request-context-attribute: req  #req·ÃÎÊrequest
-    suffix: .ftl  #ºó×ºÃû
+    request-context-attribute: req  #reqè®¿é—®request
+    suffix: .ftl  #åç¼€å
     content-type: text/html
     enabled: true
-    cache: false #»º´æÅäÖÃ
-    template-loader-path: classpath:/templates/ #Ä£°å¼ÓÔØÂ·¾¶ °´ĞèÅäÖÃ
-    charset: UTF-8 #±àÂë¸ñÊ½
+    cache: false #ç¼“å­˜é…ç½®
+    template-loader-path: classpath:/templates/ #æ¨¡æ¿åŠ è½½è·¯å¾„ æŒ‰éœ€é…ç½®
+    charset: UTF-8 #ç¼–ç æ ¼å¼
     settings:
-      number_format: '0.##'   #Êı×Ö¸ñÊ½»¯£¬ÎŞĞ¡Êıµã
+      number_format: '0.##'   #æ•°å­—æ ¼å¼åŒ–ï¼Œæ— å°æ•°ç‚¹
